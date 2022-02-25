@@ -10,37 +10,37 @@ async function writeToFile(fileName, data) {
             {
                 type: 'input',
                 name: 'username',
-                message: "What is your GitHub username?"
+                message: "What is your GitHub username?",
             },
             {
                 type: 'input',
                 name: 'repo',
-                message: "What is the name of your GitHub repo?"
+                message: "What is the name of your GitHub repo?",
             },
             {
                 type: "input",
                 name: "title",
-                message: "What is your Projects Title?"
+                message: "What is your Projects Title?",
             },
             {
                 type: "input",
                 name: "description",
-                message: "What is your Projects Description?"
+                message: "What is your Projects Description?",
             },
             {
                 type: "input",
                 name: "tableOfContents",
-                message: "What are your Projects Table Of Contents?"
+                message: "What are your Projects Table Of Contents?",
             },
             {
                 type: "input",
                 name: "installation",
-                message: "How do you install your Project?"
+                message: "How do you install your Project?",
             },
             {
                 type: "input",
                 name: "usage",
-                message: "How would someone use your Application?"
+                message: "How would someone use your Application?",
             },
             {
                 type: "list",
@@ -51,7 +51,7 @@ async function writeToFile(fileName, data) {
             {
                 type: "input",
                 name: "constributions",
-                message: "Who helped contribute to your Project?"
+                message: "Who helped contribute to your Project?",
             },
             {
                 type: "input",
@@ -61,10 +61,11 @@ async function writeToFile(fileName, data) {
             {
                 type: "input",
                 name: "questions",
-                message: "How would someone contact you for questions? This could be your email address or Cell number or both."
+                message: "How would someone contact you for questions? This could be your email address or Cell number or both.",
             },
         ]).then(data => {console.table(data)
-            fs.writeFile(fileName, `## Title: \n${data.title}\n## Description: \n${data.description}\n## Table of Contents: \n${data.tableOfContents}\n## Installation: \n${data.installation}\n## Usage: \n${data.usage}\n \n${generateMarkdown(data)}\n## Contributions: \n${data.constributions}\n## Test: \n${data.test}\n## Questions: \n${data.questions}\n${data.username}\n${data.repo}`, (err) => {
+           
+            fs.writeFile(fileName, `## Title: \n${data.title}\n## Description: \n${data.description}\n## Table of Contents: \n${data.tableOfContents}\n## Installation: \n${data.installation}\n## Usage: \n${data.usage}\n \n${generateMarkdown(data)}\n## Contributions: \n${data.constributions}\n## Test: \n${data.test}\n## Questions: \n${data.questions}\n\n${data.username}\n\n${data.repo}`, (err) => {
                 if(err) throw err}
             )
         })
