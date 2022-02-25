@@ -38,7 +38,7 @@ function renderLicenseSection(data) {
   if (data.license !== null) {
     license = data.license;
   }
-  return `## License: \n${badge}\n${link}`;
+  return `## License: \n${badge}\n\n${link}`;
 };
 
 

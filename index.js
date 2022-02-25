@@ -74,7 +74,7 @@ async function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    writeToFile("README.md", {
+    writeToFile("./output/README.md", {
         username: "",
         repo: "",
         title: "",
