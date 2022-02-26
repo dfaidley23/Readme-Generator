@@ -31,7 +31,7 @@ https://opensource.org/licenses/MIT
 ## Test: 
 You would launch node and call the file and see if it autogenerates a readme file after all prompts have been answered. See the Demo for how it should function.
 ## Questions: 
-Contact me at 9999999999
+Contact me at david.faidley23@gmail.com
 
 https://github.com/dfaidley23
 
