@@ -6,7 +6,7 @@ const tableOfContents = `
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Constributions](#constributions)
+- [Contributions](#constributions)
 - [Test](#test)
 - [Questions](#questions)
 `;

@@ -1,6 +1,6 @@
 ## Title: Best App Ever
 ## Description: 
-
+testing functionality
 ## Table of Contents: 
 
 - [Installation](#installation)
@@ -11,18 +11,18 @@
 - [Questions](#questions)
 
 ## Installation: 
-
+you just clone my repo and engage node
 ## Usage: 
-
+to build a readme
  
 ## License: 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 https://opensource.org/licenses/MIT
 ## Contributions: 
-me
+dfaidley23
 ## Test: 
-
+you would launch node and call the file and see if it autogenerates a readme file
 ## Questions: 
 Contact me at 9999999999
 
