@@ -6,7 +6,7 @@ testing functionality
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Constributions](#constributions)
+- [Contributions](#contributions)
 - [Test](#test)
 - [Questions](#questions)
 
