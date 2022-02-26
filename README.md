@@ -1,4 +1,4 @@
-## Title: Best App Ever
+## Title: README Generator
 ## Description: 
 testing functionality
 ## Table of Contents: 
@@ -18,8 +18,9 @@ testing functionality
 - Then you will be able to see a new README file get created in the output folder with your new README.
 
 ## Usage:
-Below is a Demo of how the App works.
-![Demo GIF](./demo/Readme Demo.gif)
+Below you will see a demo of how this README Generator works.
+
+![Demo Gif](./demo/ReadmeDemo.gif)
 ## License: 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -34,4 +35,4 @@ Contact me at 9999999999
 
 https://github.com/dfaidley23
 
-Readme Generator
+README Generator
